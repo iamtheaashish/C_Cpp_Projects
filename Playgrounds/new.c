@@ -1,10 +1,22 @@
 #include <stdio.h>
 void main(){
-	int a=10,b=20;
-	printf("Initially a=%d and b=%d\n",a,b);	
-	a+=b;
-	printf("After Addition Assignment a=%d and b=%d\n",a,b);
-	a*=b;
-	printf("After Multiplication Assignment a=%d and b=%d\n",a,b);
+	char op;
+	int n1,n2;
+	printf("Enter an Operator: ");
+	scanf("%c", &op);
+
+	printf("\nEnter Two Numbers: \n");
+	scanf("%d%d", &n1,&n2);
+
+	if (op=='+')
+		printf("Addition=%d\n", n1+n2);
+	else if(op=='-')
+		printf("Subtraction=%d\n", n1-n2);
+	else if(op=='/')
+		printf("Quotient=%d\n", n1/n2);
+	else if(op=='%')
+		printf("Remainder=%d\n", n1%n2);
+	else if(op=='*')
+		printf("Multiplication=%d\n", n1*n2);
 }
 

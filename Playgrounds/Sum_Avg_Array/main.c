@@ -10,7 +10,7 @@ void main(){
         scanf("%d",&a[i]);
     for(i=0;i<n;i++)
         sum=sum+a[i];
-    avg=sum/n;
+    avg=(float)sum/n;
     printf("\nSUM=%d",sum);
     printf("\nAverage=%f\n",avg);
 }

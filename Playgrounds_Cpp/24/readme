@@ -1,0 +1,13 @@
+I used
+
+`g++ main.cpp add.cpp`
+
+to compile both of them at same time to produce 'a.out' object file.
+
+then I used
+`g++ main.cpp add.cpp -o main`
+
+to comile both of them to same time to produce 'main' object file.
+
+if I had done `g++ main.cpp -o main` it would have been resulted to an error
+and compilation would have failed.

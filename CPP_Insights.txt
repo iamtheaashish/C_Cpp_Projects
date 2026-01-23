@@ -1,0 +1,2 @@
+In a constant expression, each part of the expression must be evaluatable at compile-time.
+

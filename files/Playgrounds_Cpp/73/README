@@ -1,0 +1,17 @@
+I would say my most of the logic was correct. I will rate myself 8.5/10 in this question.
+
+also a question:
+
+In the solution to the above quiz, why can’t variable age1 in main be constexpr?
+
+my answer:
+
+so const is used when value is initialized either at compile time or run time.
+In this case value will be initialized during run time.
+
+constexpr is only used when the value has to be initialized at compile time
+(we are sure what the value is going to be, like value of pi, universal constants)
+that helps us to make optimizations in our program.
+
+we don't know what the value of person's age before we run the program and ask him his age.
+we can only know after he inputs his age. 

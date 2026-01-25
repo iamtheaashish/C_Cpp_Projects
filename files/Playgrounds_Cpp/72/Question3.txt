@@ -1,0 +1,12 @@
+What are the primary differences between std::string and std::string_view?
+
+What can go wrong when using a std::string_view?
+
+----
+My Answer:
+
+Primary difference between std::string and std::string_view is that std::string makes a copy of the value it stores while std::string_view just views the already existing copy which reduces the amount of memory we need. std::string is expensive to use. std::string is usually used to input data, pass function parameters etc. std::string_view is read only. std::string is owner.
+
+what can go wrong with std::string_view
+
+it can store false values if it is being initialised by temporary objects which die while the program is executing.

@@ -1,0 +1,4 @@
+logical not has higher precedence than greater or less than symbols
+
+
+logical not flips true to false and false to true.

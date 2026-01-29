@@ -1,0 +1,11 @@
+
+// int y { ++x }
+
+and 
+
+// int y { x+1 }
+
+has are different, in first expression, prefix increment is being used, first x is incremented to 6 then x is evaluated to 6 and then 6 is assigned to y.
+
+in second expression, simply we are adding '1' to x, in this case value of x is not incremented.
+

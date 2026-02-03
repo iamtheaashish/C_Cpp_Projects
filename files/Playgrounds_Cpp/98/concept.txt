@@ -1,0 +1,1 @@
+static keyword, a static variable will retain its value even after it goes out of scope.

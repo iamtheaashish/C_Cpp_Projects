@@ -1,0 +1,19 @@
+// chapter 7 summary and quiz
+// question 1 fix the program
+
+#include <iostream>
+
+int main()
+{
+	std::cout << "Enter a positive number: ";
+	int num{};
+	std::cin >> num;
+
+	if (num < 0)
+	{
+		std::cout << "Negative number entered. Making it positive.\n";
+		num = -num;
+	}
+	std::cout << "You entered: " << num << '\n';
+	return 0;
+}

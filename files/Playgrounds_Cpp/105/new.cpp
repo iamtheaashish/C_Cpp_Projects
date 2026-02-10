@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main()
+{
+	std::cout << "Enter 0 or 1: ";
+	int x{};
+	std::cin >> x;
+	if (x == 0)
+		std::cout << "You entered 0\n";
+	else
+		std::cout << "You entered 1\n";
+
+	return 0;
+}

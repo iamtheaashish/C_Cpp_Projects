@@ -1,0 +1,4 @@
+avoid goto statements as they make understanding logic of a program difficult.
+almost all the times loops and if else can solve the problem of goto.
+
+

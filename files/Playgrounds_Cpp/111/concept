@@ -1,0 +1,10 @@
+while loops are easiest loops in programming ! 
+
+if conditions evaluate to true, then we move forward.
+
+while ( condition )
+{
+	// some statements
+
+}
+

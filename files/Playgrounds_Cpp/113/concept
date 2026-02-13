@@ -1,0 +1,2 @@
+Integral loop variables should generally be a signed integral type.
+

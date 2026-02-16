@@ -1,6 +1,6 @@
 #include <iostream>
 
-void fizzbuzz(int value)
+void fizzbuzzpop(int value)
 {
 	for(int ii{1}; ii <= value; ++ii)
 	{
@@ -29,10 +29,10 @@ void fizzbuzz(int value)
 
 int main()
 {
-	std::cout << "Enter number up to which you want the FizzBuzz results: ";
+	std::cout << "Enter number up to which you want the FizzBuzzPop results: ";
 	int value{};
 	std::cin >> value;
 
-	fizzbuzz(value);
+	fizzbuzzpop(value);
 	return 0;
 }

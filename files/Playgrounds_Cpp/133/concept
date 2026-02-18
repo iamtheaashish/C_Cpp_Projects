@@ -1,0 +1,10 @@
+std::exit
+implicit and explicit termination of program.
+
+std::atexit()
+calls the cleanup function
+
+std::abort()
+
+std::terminate()
+

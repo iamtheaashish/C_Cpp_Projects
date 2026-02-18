@@ -1,0 +1,4 @@
+early returns can be helpful if used properly.
+some devs like it some don't.
+but author of learncpp says, using early returns comes with practice.
+

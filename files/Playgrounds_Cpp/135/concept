@@ -1,0 +1,3 @@
+#include <random>
+this header will help you generate random numbers.
+and in C++20, there is 6 families of Pseudo Random Number Generation.

@@ -1,7 +1,5 @@
 #include <iostream>
-
-template <typename T>
-T addOne(T x);
+#include "add.h" // import function template definition
 
 int main()
 {

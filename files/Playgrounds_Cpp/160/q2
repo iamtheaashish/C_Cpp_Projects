@@ -1,0 +1,12 @@
+// const pointer
+
+$ int* const ptr
+
+so the object pointer is pointing to can't be changed. It's fixed.
+memory location it's pointing to can't be changed.
+
+// pointer to const
+
+$ const int* ptr
+
+Pointer isn't const, but it's pointing to a constant value/object, it can point to any constant value/object, that value/object's address can be changed, but it should only be of const type.

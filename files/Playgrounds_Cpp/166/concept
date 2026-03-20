@@ -1,0 +1,8 @@
+Introduction to struct 
+
+struct stands for structure
+
+a struct or a class has member variables
+
+a member is an individual in a group // analogy
+overload operator >> to print struct

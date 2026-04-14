@@ -7,7 +7,7 @@ namespace Items
 	enum Type
 	{
 		health_potion,
-		torche,
+		torch,
 		arrow,
 		max_items
 	};
@@ -21,10 +21,10 @@ int countTotalItems(const std::vector<int>& inventory)
 	return sum;
 }
 
+
 int main()
 {
-	std::vector inventory{1,5,10};
-
+	std::vector inventory { 1, 5, 10 };
 	assert(std::size(inventory) == Items::max_items);
 
 	std::cout << "You have " << countTotalItems(inventory) << " total items\n";

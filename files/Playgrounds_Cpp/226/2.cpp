@@ -1,19 +1,9 @@
+#include <array>
 #include <iostream>
 
-int main()
+template <typename T, std::size_t Row, std::size_t Col>
+void printArray(const std::array<std::array<T, Col>, Row> &arr)
 {
-	int arr[3][4] {
-        { 1, 2, 3, 4 },
-        { 5, 6, 7, 8 },
-        { 9, 10, 11, 12 }};
-
-	for (std::size_t row{0}; row < std::size(arr); ++row)
-	{
-		for (std::size_t col{0}; col < std::size(arr[0]); ++col)
-			std::cout << arr[row][col] << ' ';
-		std::cout << '\n';
-	}
-
 	for (const auto& arow: arr)
 	{
 		for (const auto& e: arow)
@@ -21,6 +11,16 @@ int main()
 
 		std::cout << '\n';
 	}
-	
-	return 0;
+}
+
+int main()
+{
+    std::array<std::array<int, 4>, 3>  arr {{
+        { 1, 2, 3, 4 },
+        { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 }}};
+
+    printArray(arr);
+
+    return 0;
 }

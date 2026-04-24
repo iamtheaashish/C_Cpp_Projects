@@ -1,4 +1,4 @@
-/*To calculate largest and smallest elements in an array with n elements*/
+/*To calculate largest and largest elements in an array with n elements*/
 #include <stdio.h>
 void main(){
     int big, small,a[10],i,n;
@@ -15,5 +15,5 @@ void main(){
         if(a[i]<small)
             small=a[i];
     } printf("\nBiggest Array Element=%d",big);
-    printf("\nSmallest Array Element=%d\n",small);
+    printf("\nlargest Array Element=%d\n",small);
 }

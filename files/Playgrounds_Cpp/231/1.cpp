@@ -1,7 +1,5 @@
-#include <algorithm>
-#include <array>
+#include <chrono> // for std::chrono functions
 #include <iostream>
-#include <chrono>
 
 class Timer
 {
@@ -24,25 +22,11 @@ public:
 	}
 };
 
-void doubleNumber(int& i)
-{
-    i *= 2;
-}
-
 int main()
 {
-	Timer t;
+    Timer t;
 
-    std::array qwe{1,2,3,4,5,6,7,8,9};
+    std::cout << "Time elapsed: " << t.elapsed() << " seconds\n";
 
-    std::for_each(std::next(qwe.begin()), std::prev(qwe.end()), doubleNumber);
-
-    for (int i : qwe)
-    {
-        std::cout << i << ' ';
-    }
-
-    std::cout << '\n';
-
-    std::cout << "Time elapsed: " << t.elapsed() << '\n';
+    return 0;
 }

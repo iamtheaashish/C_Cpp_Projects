@@ -2,16 +2,13 @@
 #include <array>
 #include <iostream>
 
-bool greator(int a, int b)
-{
-    return (a<b);
-}
-
 int main()
 {
     std::array arr{13,90,99,5,40,80};
 
-    std::sort(arr.begin(),arr.end(), greator);
+    // std::sort(arr.begin(),arr.end(), std::greater<int>{});
+
+    std::sort(arr.begin(), arr.end());
 
     for (int i : arr)
     {
